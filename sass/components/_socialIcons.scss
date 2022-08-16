@@ -1,0 +1,21 @@
+.social-icons {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition-property: background-color, color;
+}
+
+.social-icons__icon {
+  fill: currentColor;
+}

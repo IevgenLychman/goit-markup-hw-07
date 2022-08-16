@@ -1,0 +1,133 @@
+.section.filters {
+  padding: 94px 0px;
+}
+
+.filters-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.filters-btn {
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  color: var(--primary-text-color);
+  background: var(--team-background);
+  padding: 6px 22px;
+  cursor: pointer;
+
+  transition-property: background-color, color, box-shadow, outline;
+}
+
+.filters-btn.current {
+  color: var(--background-color);
+  background: var(--hover-color);
+}
+
+.filters-text:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  background: #188ce8;
+  color: var(--background-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline: transparent;
+}
+
+.portfolio-body {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.body-part {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.body-part:nth-child(3n + 1) {
+  margin-left: 0;
+}
+
+.body-part:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  display: block;
+  transition-property: box-shadow, outline;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline: transparent;
+}
+
+.portfolio-link:hover .overlay,
+.portfolio-link:focus .overlay {
+  transform: translatey(0);
+}
+
+.img-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: translatey(101%);
+  transition-property: transform;
+
+  padding: 0 24px;
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
+.body-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+  margin-bottom: 4px;
+}
+
+.body-quote {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.portfolio-desc {
+  padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}

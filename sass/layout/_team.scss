@@ -57,12 +57,3 @@
   color: var(--secondary-text-color);
   margin-bottom: 16px;
 }
-.social-icons__link--color {
-  color: var(--icon-social-color-main);
-  background-color: var(--background-color);
-  &:hover,
-  &:focus {
-    color: var(--background-color);
-    background-color: var(--hover-color);
-  }
-}

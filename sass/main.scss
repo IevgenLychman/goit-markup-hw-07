@@ -1,11 +1,14 @@
 @import "./utils/variables";
 @import "./base/reset";
+@import "./base/visuallyHidden";
 @import "./components/container";
 @import "./components/transition";
 @import "./components/button";
 @import "./components/logo";
 @import "./components/currentUnderline";
 @import "./components/socialIcons";
+@import "./components/closeBtn";
+@import "./components/userPolicy";
 
 @import "layout/header";
 @import "layout/hero";

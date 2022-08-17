@@ -334,58 +334,72 @@
     <!--FOOTER-->
 
     <footer class="footer">
-      <div class="container contacts">
+      <div class="container footer__contacts">
         <div>
-          <a class="web-studio down" href="./index.html">
+          <a class="logo footer__logo" href="./index.html">
             Web
-            <span class="studio-footer">Studio</span>
+            <span class="footer__studio">Studio</span>
           </a>
-          <address class="address">
-            <ul class="address-list">
-              <li class="address-map desc">м. Київ, пр-т Лесі Українки, 26</li>
-              <li class="address-text desc">
+          <address class="footer__address">
+            <ul class="footer__list">
+              <li class="footer__meta footer__meta--color">
+                м. Київ, пр-т Лесі Українки, 26
+              </li>
+              <li class="footer__meta">
                 <a
-                  class="address-contacts transition"
+                  class="footer__aside transition"
                   href="mailto:info@devstudio.com"
                 >
                   info@devstudio.com
                 </a>
               </li>
-              <li class="address-text desc">
-                <a class="address-contacts transition" href="tel:+380961111111">
+              <li class="footer__meta">
+                <a class="footer__aside transition" href="tel:+380961111111">
                   +38 096 111 11 11
                 </a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-social">
-          <p class="footer-social-text">приєднуйтесь</p>
-          <ul class="footer-social-contacts">
-            <li class="footer-social-list">
-              <a href="" class="footer-social-link transition">
-                <svg class="footer-social-icon" width="20" height="20">
+        <div class="footer__social">
+          <p class="footer__text">приєднуйтесь</p>
+          <ul class="social-icons">
+            <li class="social-icons__list">
+              <a
+                href=""
+                class="social-icons__link social-icons__link--color transition"
+              >
+                <svg class="social-icons__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagram "></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-list">
-              <a href="" class="footer-social-link transition">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="social-icons__list">
+              <a
+                href=""
+                class="social-icons__link social-icons__link--color transition"
+              >
+                <svg class="social-icons__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-twitter "></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-list">
-              <a href="" class="footer-social-link transition">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="social-icons__list">
+              <a
+                href=""
+                class="social-icons__link social-icons__link--color transition"
+              >
+                <svg class="social-icons__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook "></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-list">
-              <a href="" class="footer-social-link transition">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="social-icons__list">
+              <a
+                href=""
+                class="social-icons__link social-icons__link--color transition"
+              >
+                <svg class="social-icons__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedin "></use>
                 </svg>
               </a>
@@ -394,21 +408,21 @@
         </div>
         <div class="sing-up-form">
           <strong>Підпишіться на розсилку</strong>
-          <form class="sing-up-wrap">
+          <form class="sing-up-form__wrap">
             <label for="sing_up"></label>
             <input
-              class="sing-up transition"
+              class="sing-up-form__sing-up transition"
               type="email"
               name="sing-up"
               id="sing_up"
               placeholder="E-mail"
             />
 
-            <button class="btn-sing-up transition" type="submit">
+            <button class="btn sing-up-form__btn transition" type="submit">
               Підписатися
               <svg width="24" height="24">
                 <use
-                  class="sing-up-icon"
+                  class="sing-up-form__icon"
                   href="./images/symbol-defs.svg#icon-send"
                 ></use>
               </svg>

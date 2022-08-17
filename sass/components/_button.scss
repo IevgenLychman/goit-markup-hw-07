@@ -11,6 +11,7 @@
   cursor: pointer;
   outline: transparent;
   transition-property: background-color;
+
   &:hover,
   &:focus {
     background-color: var(--btn-hover);

@@ -16,7 +16,7 @@
   transition-property: color;
   &:hover,
   &:focus {
-    color: #188ce8;
+    color: var(--btn-hover);
   }
 }
 

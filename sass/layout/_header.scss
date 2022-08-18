@@ -56,6 +56,18 @@
   position: relative;
 }
 
+.current::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
+  border-radius: 2px;
+}
+
 .header__contact {
   font-weight: 500;
   font-size: 14px;

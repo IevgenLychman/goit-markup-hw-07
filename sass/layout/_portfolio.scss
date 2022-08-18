@@ -2,6 +2,10 @@
   padding: 94px 0px;
 }
 
+.filters__list:not(:last-child) {
+  margin-right: 8px;
+}
+
 .portfolio {
   list-style-type: none;
   display: flex;
